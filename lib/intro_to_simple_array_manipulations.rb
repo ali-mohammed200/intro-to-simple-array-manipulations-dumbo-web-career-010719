@@ -20,6 +20,9 @@ def using_shift(arr)
   arr.shift
 end
 def shift_with_args(arr)
+  #shift and pop can take arguments
+  #array.shift(2)
+  #this will do the same thing
   newArr = []
   num = 2
   while num > 0
